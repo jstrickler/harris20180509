@@ -67,7 +67,8 @@ s = "this is a test"
 print(s.replace(' ', ''))
 print(s.replace(' ', 'X'))
 
-print("|" + 'foo'.center(15) + '|')
+print("|" + 'foo'.center(15) + '|'
+      )
 
 
 
