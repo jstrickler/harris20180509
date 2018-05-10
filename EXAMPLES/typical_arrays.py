@@ -7,3 +7,8 @@ knight = 'King','Arthur','Britain'
 print(fruits[3])  # <1>
 print(name[0])    # <2>
 print(knight[1])  # <3>
+
+
+print('apple' in fruits)
+print('Id' in name)
+print('Britain' in knight)
