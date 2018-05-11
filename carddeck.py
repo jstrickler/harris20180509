@@ -75,3 +75,7 @@ class CardDeck():   # object
         tmp = CardDeck(self.dealer)
         tmp._cards = self.cards + other.cards
         return tmp
+
+    def __eq__(self, other):
+        return self.cards == other.cards
+

@@ -54,7 +54,11 @@ d3 = d1 + d2
 print(d3)
 
 
+print(d1 == d2)
 
+d3 = CardDeck("Roger")
+d4 = CardDeck("Phil")
+print(d3 == d4)
 
 
 
